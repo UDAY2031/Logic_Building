@@ -18,7 +18,7 @@ void shape(int n){
     }
 }
 void s1(int n){
-    int space = 8;
+    int space = 2*n-2;
     for(int i =0;i<n;i++){
         for(int j=0;j<i+1;j++){
             cout<<'*';
