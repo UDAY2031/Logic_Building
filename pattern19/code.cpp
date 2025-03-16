@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void shape(int n){
+void shape1(int n){
     for(int i =0;i<n;i++){
         for(int j=0;j<=n-i-1;j++){
             cout<<'*';
@@ -15,7 +15,7 @@ void shape(int n){
         
     }
 }
-void s1(int n){
+void shape2(int n){
     for(int i =0;i<n;i++){
         for(int j=0;j<i+1;j++){
             cout<<'*';
@@ -35,6 +35,6 @@ int main(){
     cout<<"Enter the n value";
     cin>>n;
     
-    shape(n);
-    s1(n);
+    shape1(n);
+    shape2(n);
 }
